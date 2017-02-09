@@ -1,0 +1,26 @@
+.ni-page-split {
+  min-height: 70vh;
+}
+@media screen and (min-width: 960px) {
+  .ni-page-split {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+  }
+  .ni-page-split div:first-child {
+    flex: 0 0 33.3vw;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  .ni-page-split div:last-child {
+    flex: 0 0 66.7vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ni-page-split div:first-child {
+    flex: 0 0 25vw;
+  }
+  .ni-page-split div:last-child {
+    flex: 0 0 75vw;
+  }
+}
