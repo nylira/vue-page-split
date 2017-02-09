@@ -1,5 +1,5 @@
 {
-  "name": "vue-page-split",
+  "name": "@nylira/vue-page-split",
   "version": "1.0.0",
   "description": "Split page component for Vue 2.",
   "main": "index.js",
