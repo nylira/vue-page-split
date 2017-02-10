@@ -7,12 +7,14 @@
     flex-flow: row nowrap;
     align-items: stretch;
   }
-  .ni-page-split div:first-child {
+  .ni-page-split > div:first-child,
+  .ni-page-split > header {
     flex: 0 0 33.3vw;
     margin-bottom: 0;
     border-bottom: none;
   }
-  .ni-page-split div:last-child {
+  .ni-page-split > div:last-child,
+  .ni-page-split > footer {
     flex: 0 0 66.7vw;
   }
 }
