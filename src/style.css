@@ -1,30 +1,26 @@
 .ni-page-split {
-  min-height: 70vh;
+  min-height: 75vh;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
   .ni-page-split {
     display: flex;
     flex-flow: row nowrap;
     align-items: stretch;
   }
-  .ni-page-split > div:first-child,
-  .ni-page-split > header {
+  .ni-page-split-header {
     flex: 0 0 33.3vw;
     margin-bottom: 0;
     border-bottom: none;
   }
-  .ni-page-split > div:last-child,
-  .ni-page-split > footer {
+  .ni-page-split-main {
     flex: 0 0 66.7vw;
   }
 }
-@media screen and (min-width: 1200px) {
-  .ni-page-split > div:first-child,
-  .ni-page-split > header {
+@media screen and (min-width: 1280px) {
+  .ni-page-split-header {
     flex: 0 0 25vw;
   }
-  .ni-page-split > div:last-child,
-  .ni-page-split > footer {
+  .ni-page-split-main {
     flex: 0 0 75vw;
   }
 }

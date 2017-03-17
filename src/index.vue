@@ -1,6 +1,11 @@
 <template>
   <div class="ni-page-split">
-    <slot></slot>
+    <div class="ni-page-split-header">
+      <slot name="header"></slot>
+    </div>
+    <div class="ni-page-split-main">
+      <slot name="main"></slot>
+    </div>
   </div>
 </template>
 
@@ -11,4 +16,3 @@ export default {
 </script>
 
 <style src="./style.css"></style>
-
