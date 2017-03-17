@@ -1,12 +1,14 @@
 .ni-page-split {
   min-height: 75vh;
+  display: flex;
+  flex-flow: column nowrap;
 }
 .ni-page-split-main {
+  flex: 1;
   background: #fff;
 }
 @media screen and (min-width: 1024px) {
   .ni-page-split {
-    display: flex;
     flex-flow: row nowrap;
     align-items: stretch;
   }
