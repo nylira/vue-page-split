@@ -1,6 +1,9 @@
 .ni-page-split {
   min-height: 75vh;
 }
+.ni-page-split-main {
+  background: #fff;
+}
 @media screen and (min-width: 1024px) {
   .ni-page-split {
     display: flex;
