@@ -4,7 +4,7 @@
       <slot name="header"></slot>
     </div>
     <div class="ni-page-split-main">
-      <slot name="main"></slot>
+      <slot></slot>
     </div>
   </div>
 </template>
